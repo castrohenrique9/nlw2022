@@ -11,9 +11,13 @@ Learn about NodeJS, React and React Native
 
 ## Install and Configure TypeScript
 
-1. Execute: `npm install typescript -D` (`-D` is used to install just in dev environment)
+1. Execute: `npm install typescript -D` (use `-D` to install just in dev environment)
 2. Alter format `.mjs` (or `.js`) to `.ts`
 3. Execute command to make `tsconfig.json`: `npx tsc --init`
+
+## Util commands
+
+`npm run build` (execute the script build defined on `package.json`)
 
 # Tools
 
