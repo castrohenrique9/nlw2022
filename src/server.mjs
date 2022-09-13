@@ -1,5 +1,10 @@
 import express from 'express'
 
-// import with ECMA Script Modules
+const app = express()
 
-console.log("Hello World NodeJS")
+app.get('/ads', () => {
+    console.log('access ads!');
+})
+
+// localhost:3333/ads
+app.listen(3333)
