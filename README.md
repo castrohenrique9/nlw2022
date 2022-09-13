@@ -9,7 +9,13 @@ Learn about NodeJS, React and React Native
 3. Execute PowerShell (if Windows) for create basic structure: `npm init -y`
 4. Open folder `www/nomeProjeto/server` and install lib Express: `npm install express`
 
-## Tools
+## Install and Configure TypeScript
+
+1. Execute: `npm install typescript -D` (`-D` is used to install just in dev environment)
+2. Alter format `.mjs` (or `.js`) to `.ts`
+3. Execute command to make `tsconfig.json`: `npx tsc --init`
+
+# Tools
 
 1. [Postman](https://www.postman.com/)
 2. [Insomia](https://insomnia.rest/)
