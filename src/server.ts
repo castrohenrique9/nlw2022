@@ -6,7 +6,8 @@ app.get('/ads', (request, response) => {
     response.json([
         { id: 1, name: 'Ads 1' },
         { id: 2, name: 'Ads 3' },
-        { id: 3, name: 'Ads 3' }
+        { id: 3, name: 'Ads 3' },
+        { id: 4, name: 'Ads 4b' },
     ])
 })
 
